@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\zaawansowane4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|solutionrelative:zaawansowane4\\zaawansowane4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\mac.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|solutionrelative:zaawansowane4\\mac.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\class.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|solutionrelative:zaawansowane4\\class.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|solutionrelative:zaawansowane4\\class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\zaawansowane4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|solutionrelative:zaawansowane4\\zaawansowane4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\mac.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|solutionrelative:zaawansowane4\\mac.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "mac.txt",
               "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\mac.txt",
               "RelativeDocumentMoniker": "zaawansowane4\\mac.txt",
@@ -43,12 +43,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "class.cpp",
               "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\class.cpp",
               "RelativeDocumentMoniker": "zaawansowane4\\class.cpp",
-              "ToolTip": "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\class.cpp",
-              "RelativeToolTip": "zaawansowane4\\class.cpp",
+              "ToolTip": "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\class.cpp*",
+              "RelativeToolTip": "zaawansowane4\\class.cpp*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-05T07:32:34.654Z",
@@ -56,26 +56,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "class.h",
               "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\class.h",
               "RelativeDocumentMoniker": "zaawansowane4\\class.h",
               "ToolTip": "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\class.h",
               "RelativeToolTip": "zaawansowane4\\class.h",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAC4AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-05T07:32:23.426Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "zaawansowane4.cpp",
               "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\zaawansowane4.cpp",
               "RelativeDocumentMoniker": "zaawansowane4\\zaawansowane4.cpp",
               "ToolTip": "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\zaawansowane4.cpp",
               "RelativeToolTip": "zaawansowane4\\zaawansowane4.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-05T07:31:39.672Z",
               "EditorCaption": ""

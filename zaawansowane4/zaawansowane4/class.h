@@ -5,7 +5,7 @@ using namespace std;
 
 class matrix {
 private:
-
+	int** mac;
 public:
 	matrix(void);
 	matrix(int n);
@@ -39,7 +39,7 @@ public:
 	matrix& operator+=(int a);
 	matrix& operator-=(int a);
 	matrix& operator*=(int a);
-	matrix& operator(double);
+	matrix& operator()(double);
 	friend ostream& operator<<(ostream& o, matrix& m);
 	bool operator==(const matrix& m);
 	bool operator>(const matrix& m);
