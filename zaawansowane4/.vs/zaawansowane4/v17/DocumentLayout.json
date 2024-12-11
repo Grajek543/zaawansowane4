@@ -1,22 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\",
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\33066_P1\\zaawansowane4\\zaawansowane4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\class.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|solutionrelative:zaawansowane4\\class.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|C:\\Users\\HP\\Desktop\\33066_P1\\zaawansowane4\\zaawansowane4\\zaawansowane4\\class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|solutionrelative:zaawansowane4\\class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\zaawansowane4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|solutionrelative:zaawansowane4\\zaawansowane4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|C:\\Users\\HP\\Desktop\\33066_P1\\zaawansowane4\\zaawansowane4\\zaawansowane4\\class.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|solutionrelative:zaawansowane4\\class.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\mac.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|solutionrelative:zaawansowane4\\mac.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|C:\\Users\\HP\\Desktop\\33066_P1\\zaawansowane4\\zaawansowane4\\zaawansowane4\\zaawansowane4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{11657435-F98B-4F72-A5DB-6BC5A3A97647}|zaawansowane4\\zaawansowane4.vcxproj|solutionrelative:zaawansowane4\\zaawansowane4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "mac.txt",
-              "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\mac.txt",
-              "RelativeDocumentMoniker": "zaawansowane4\\mac.txt",
-              "ToolTip": "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\mac.txt",
-              "RelativeToolTip": "zaawansowane4\\mac.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-05T08:37:54.372Z",
+              "DocumentIndex": 2,
+              "Title": "zaawansowane4.cpp",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\33066_P1\\zaawansowane4\\zaawansowane4\\zaawansowane4\\zaawansowane4.cpp",
+              "RelativeDocumentMoniker": "zaawansowane4\\zaawansowane4.cpp",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\33066_P1\\zaawansowane4\\zaawansowane4\\zaawansowane4\\zaawansowane4.cpp",
+              "RelativeToolTip": "zaawansowane4\\zaawansowane4.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-05T07:31:39.672Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "class.cpp",
-              "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\class.cpp",
-              "RelativeDocumentMoniker": "zaawansowane4\\class.cpp",
-              "ToolTip": "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\class.cpp*",
-              "RelativeToolTip": "zaawansowane4\\class.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-05T07:32:34.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "class.h",
-              "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\class.h",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\33066_P1\\zaawansowane4\\zaawansowane4\\zaawansowane4\\class.h",
               "RelativeDocumentMoniker": "zaawansowane4\\class.h",
-              "ToolTip": "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\class.h",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\33066_P1\\zaawansowane4\\zaawansowane4\\zaawansowane4\\class.h",
               "RelativeToolTip": "zaawansowane4\\class.h",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAC0AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-05T07:32:23.426Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "zaawansowane4.cpp",
-              "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\zaawansowane4.cpp",
-              "RelativeDocumentMoniker": "zaawansowane4\\zaawansowane4.cpp",
-              "ToolTip": "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\zaawansowane4\\zaawansowane4\\zaawansowane4\\zaawansowane4.cpp",
-              "RelativeToolTip": "zaawansowane4\\zaawansowane4.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "class.cpp",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\33066_P1\\zaawansowane4\\zaawansowane4\\zaawansowane4\\class.cpp",
+              "RelativeDocumentMoniker": "zaawansowane4\\class.cpp",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\33066_P1\\zaawansowane4\\zaawansowane4\\zaawansowane4\\class.cpp",
+              "RelativeToolTip": "zaawansowane4\\class.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-05T07:31:39.672Z",
+              "WhenOpened": "2024-12-05T07:32:34.654Z",
               "EditorCaption": ""
             }
           ]

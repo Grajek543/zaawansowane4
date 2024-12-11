@@ -5,6 +5,7 @@ using namespace std;
 
 class matrix {
 private:
+	int* dlug;
 	int** mac;
 public:
 	matrix(void);
