@@ -28,3 +28,39 @@ matrix& matrix::wiersz(int y, int* t)
 	}
 	return *this;
 }
+
+matrix& matrix::przekatna(void)
+{
+	for (int i = 0; i < *dlug; i++)
+	{
+		for (int j = 0; j < *dlug; j++)
+		{
+			if (i != j)
+			{
+				mac[i][j] = 0;
+			}
+			else {
+				mac[i][j] = 1;
+			}
+		}
+	}
+	return *this;
+}
+
+matrix& matrix::pod_przekatna(void)
+{
+	for (int i = 0; i < *dlug; i++)
+	{
+		for (int j = 0; j < *dlug; j++)
+		{
+			if (i > j)
+			{
+				mac[i][j] = 1;
+			}
+			else {
+				mac[i][j] = 0;
+			}
+		}
+	}
+	return *this;
+}
