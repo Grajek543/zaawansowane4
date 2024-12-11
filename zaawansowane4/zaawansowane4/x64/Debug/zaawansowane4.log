@@ -1,6 +1,3 @@
-﻿  class.cpp
-C:\Users\Grzegorz\Desktop\studia\projekty\zaawansowane4\zaawansowane4\zaawansowane4\class.cpp(108,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
-C:\Users\Grzegorz\Desktop\studia\projekty\zaawansowane4\zaawansowane4\zaawansowane4\class.cpp(122,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
-  zaawansowane4.cpp
-  Generowanie kodu...
+﻿  zaawansowane4.cpp
+  LINK : nie znaleziono elementu C:\Users\Grzegorz\Desktop\studia\projekty\zaawansowane4\zaawansowane4\x64\Debug\zaawansowane4.exe ani nie został on skompilowany podczas ostatniego konsolidowania przyrostowego; zostanie wykonana pełna konsolidacja
   zaawansowane4.vcxproj -> C:\Users\Grzegorz\Desktop\studia\projekty\zaawansowane4\zaawansowane4\x64\Debug\zaawansowane4.exe
