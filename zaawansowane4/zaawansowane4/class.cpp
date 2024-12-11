@@ -36,3 +36,31 @@ matrix operator-(int a, matrix& m)
 	}
 	return *temp;
 }
+
+matrix& matrix::operator++(int)
+{
+	matrix* temp = new matrix(*dlug);
+	for (int i = 0; i < *dlug; i++)
+	{
+		for (int j = 0; j < *dlug; j++)
+		{
+			temp->mac[i][j] = mac[i][j] + 1;
+		}
+	}
+	*this = *temp;
+	return *this;
+}
+
+matrix& matrix::operator--(int)
+{
+	matrix* temp = new matrix(*dlug);
+	for (int i = 0; i < *dlug; i++)
+	{
+		for (int j = 0; j < *dlug; j++)
+		{
+			temp->mac[i][j] = mac[i][j] - 1;
+		}
+	}
+	*this = *temp;
+	return *this;
+}
