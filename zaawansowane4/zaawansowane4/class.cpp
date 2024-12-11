@@ -134,3 +134,60 @@ ostream& operator<<(ostream& o, matrix& m)
 	}
 	return o;
 }
+
+bool matrix::operator==(const matrix& m)
+{
+	if (*dlug != *m.dlug)
+	{
+		return false;
+	}
+	for (int i = 0; i < *dlug; i++)
+	{
+		for (int j = 0; j < *dlug; j++)
+		{
+			if (mac[i][j] != m.mac[i][j])
+			{
+				return false;
+			}
+		}
+	}
+	return true;
+}
+
+bool matrix::operator>(const matrix& m)
+{
+	if (*dlug != *m.dlug)
+	{
+		return false;
+	}
+	for (int i = 0; i < *dlug; i++)
+	{
+		for (int j = 0; j < *dlug; j++)
+		{
+			if (mac[i][j] <= m.mac[i][j])
+			{
+				return false;
+			}
+		}
+	}
+	return true;
+}
+
+bool matrix::operator<(const matrix& m)
+{
+	if (*dlug != *m.dlug)
+	{
+		return false;
+	}
+	for (int i = 0; i < *dlug; i++)
+	{
+		for (int j = 0; j < *dlug; j++)
+		{
+			if (mac[i][j] >= m.mac[i][j])
+			{
+				return false;
+			}
+		}
+	}
+	return true;
+}
