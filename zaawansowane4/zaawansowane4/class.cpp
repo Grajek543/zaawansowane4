@@ -54,3 +54,32 @@ matrix::~matrix(void)
 	}
 }
 
+matrix& matrix::alokuj(int n)
+{
+	if (mac != nullptr) {
+		if (*dlug < n) {
+			for (int i = 0; i < *dlug; i++) {
+				delete[] mac[i];
+			}
+			delete[] mac;
+			delete dlug;
+		}
+	}
+
+	mac = new int* [n];
+	for (int i = 0; i < n; i++) {
+		mac[i] = new int[n];
+	}
+
+	dlug = new int(n);
+
+	*dlug = n;
+	return *this;
+}
+
+matrix& matrix::wstaw(int x, int y, int wartosc)
+{
+	mac[x][y] = wartosc;
+	return *this;
+}
+
