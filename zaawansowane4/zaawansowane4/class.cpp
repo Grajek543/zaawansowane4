@@ -100,3 +100,40 @@ matrix& matrix::szachownica(void)
 	}
 	return *this;
 }
+
+matrix& matrix::operator+(matrix& m)
+{
+	matrix* temp = new matrix(*dlug);
+	for (int i = 0; i < *dlug; i++)
+	{
+		for (int j = 0; j < *dlug; j++)
+		{
+			temp->mac[i][j] = mac[i][j] + m.mac[i][j];
+		}
+	}
+	*this = *temp;
+	return *this;
+}
+
+matrix& matrix::operator*(matrix& m)
+{
+	if (*dlug != *m.dlug)
+	{
+		cout << "Macierze posiadaja rozne dlugosci" << endl;
+		return *this;
+	}
+	matrix* temp = new matrix(*dlug);
+	for (int i = 0; i < *dlug; i++)
+	{
+		for (int j = 0; j < *dlug; j++)
+		{
+			temp->mac[i][j] = 0;
+			for (int k = 0; k < *dlug; k++)
+			{
+				temp->mac[i][j] += (mac[i][j] * m.mac[i][k]);
+			}
+		}
+	}
+	*this = *temp;
+	return *this;
+}
