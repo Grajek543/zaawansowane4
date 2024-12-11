@@ -137,3 +137,31 @@ matrix& matrix::operator*(matrix& m)
 	*this = *temp;
 	return *this;
 }
+
+matrix& matrix::operator+(int a)
+{
+	matrix* temp = new matrix(*dlug);
+	for (int i = 0; i < *dlug; i++)
+	{
+		for (int j = 0; j < *dlug; j++)
+		{
+			temp->mac[i][j] = mac[i][j] + a;
+		}
+	}
+	*this = *temp;
+	return *this;
+}
+
+matrix& matrix::operator*(int a)
+{
+	matrix* temp = new matrix(*dlug);
+	for (int i = 0; i < *dlug; i++)
+	{
+		for (int j = 0; j < *dlug; j++)
+		{
+			temp->mac[i][j] = mac[i][j] * a;
+		}
+	}
+	*this = *temp;
+	return *this;
+}
