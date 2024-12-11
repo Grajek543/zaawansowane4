@@ -106,3 +106,31 @@ matrix& matrix::operator*=(int a)
 	*this = *temp;
 	return *this;
 }
+
+matrix& matrix::operator()(double value)
+{
+	int intvalue = (int)value;
+	matrix* temp = new matrix(*dlug);
+	for (int i = 0; i < *dlug; i++)
+	{
+		for (int j = 0; j < *dlug; j++)
+		{
+			temp->mac[i][j] = mac[i][j] + intvalue;
+		}
+	}
+	*this = *temp;
+	return *this;
+}
+
+ostream& operator<<(ostream& o, matrix& m)
+{
+	for (int i = 0; i < *m.dlug; i++)
+	{
+		for (int j = 0; j < *m.dlug; j++)
+		{
+			o << m.mac[i][j] << " ";
+		}
+		o << endl;
+	}
+	return o;
+}
