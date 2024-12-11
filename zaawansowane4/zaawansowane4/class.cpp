@@ -64,3 +64,39 @@ matrix& matrix::pod_przekatna(void)
 	}
 	return *this;
 }
+
+matrix& matrix::nad_przekatna(void)
+{
+	for (int i = 0; i < *dlug; i++)
+	{
+		for (int j = 0; j < *dlug; j++)
+		{
+			if (i < j)
+			{
+				mac[i][j] = 1;
+			}
+			else {
+				mac[i][j] = 0;
+			}
+		}
+	}
+	return *this;
+}
+
+matrix& matrix::szachownica(void)
+{
+	for (int i = 0; i < *dlug; i++)
+	{
+		for (int j = 0; j < *dlug; j++)
+		{
+			if ((i + j) % 2 != 0)
+			{
+				mac[i][j] = 1;
+			}
+			else {
+				mac[i][j] = 0;
+			}
+		}
+	}
+	return *this;
+}
