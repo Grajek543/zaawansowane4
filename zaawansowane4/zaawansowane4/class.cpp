@@ -125,3 +125,53 @@ matrix& matrix::losuj(int x)
 	return *this;
 }
 
+matrix& matrix::diagonalna(int* t)
+{
+	for (int i = 0; i < *dlug; i++)
+	{
+		mac[i][i] = t[i];
+	}
+	for (int i = 0; i < *dlug; i++)
+	{
+		for (int j = 0; j < *dlug; j++)
+		{
+			if (i != j)
+			{
+				mac[i][j] = 0;
+			}
+		}
+	}
+	return *this;
+}
+
+matrix& matrix::diagonalna_k(int k, int* t)
+{
+	for (int i = 0; i < *dlug; i++)
+	{
+		for (int j = 0; j < *dlug; j++)
+		{
+			mac[i][j] = 0;
+		}
+	}
+	if (k != 0) {
+		if (k > 0)
+		{
+			for (int i = 0; i < *dlug - k; i++)
+			{
+				mac[i][i + k] = t[i + k];
+			}
+		}
+		else {
+			for (int i = 0; i < *dlug; i++)
+			{
+				mac[i][i + k] = t[i + k];
+			}
+		}
+
+	}
+	else {
+		diagonalna(t);
+	}
+	return *this;
+}
+
