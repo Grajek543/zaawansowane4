@@ -27,9 +27,4 @@
       <Filter>Pliki źródłowe</Filter>
     </ClInclude>
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="mac.txt">
-      <Filter>Pliki źródłowe</Filter>
-    </Text>
-  </ItemGroup>
 </Project>
