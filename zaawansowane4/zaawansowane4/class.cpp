@@ -83,3 +83,18 @@ matrix& matrix::wstaw(int x, int y, int wartosc)
 	return *this;
 }
 
+int matrix::pokaz(int x, int y)
+{
+	return mac[x][y];
+}
+
+matrix& matrix::dowroc(void)
+{
+	for (int i = 0; i < *dlug; i++) {
+		for (int j = i + 1; j < *dlug; j++) {
+			swap(mac[i][j], mac[j][i]);
+		}
+	}
+	return *this;
+}
+
