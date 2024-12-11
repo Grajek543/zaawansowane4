@@ -98,3 +98,30 @@ matrix& matrix::dowroc(void)
 	return *this;
 }
 
+matrix& matrix::losuj(void)
+{
+	srand(time(nullptr));
+
+	for (int i = 0; i < *dlug; i++)
+	{
+		for (int j = 0; j < *dlug; j++)
+		{
+			mac[i][j] = rand() % 10;
+		}
+	}
+	return *this;
+}
+
+matrix& matrix::losuj(int x)
+{
+	srand(time(nullptr));
+	int t1;
+	int t2;
+	for (int i = 0; i < x; i++) {
+		t1 = rand() % *dlug;
+		t2 = rand() % *dlug;
+		mac[t1][t2] = rand() % 10;
+	}
+	return *this;
+}
+
