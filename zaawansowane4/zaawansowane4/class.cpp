@@ -31,3 +31,26 @@ matrix::matrix(int n, int* t)
 	*dlug = n;
 }
 
+matrix::matrix(matrix& m)
+{
+	alokuj(*m.dlug);
+
+	for (int i = 0; i < *m.dlug; i++) {
+		for (int j = 0; j < *m.dlug; j++) {
+			mac[i][j] = m.mac[i][j];
+		}
+	}
+}
+
+matrix::~matrix(void)
+{
+	if (mac != nullptr)
+	{
+		for (int i = 0; i < *dlug; i++)
+		{
+			delete[] mac[i];
+		}
+		delete[] mac;
+	}
+}
+
