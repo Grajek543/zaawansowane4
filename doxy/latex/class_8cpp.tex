@@ -1,0 +1,115 @@
+\doxysection{C\+:/\+Users/gfiej/\+One\+Drive/\+Desktop/projects/zaawansowane4/zaawansowane4/zaawansowane4/class.cpp File Reference}
+\hypertarget{class_8cpp}{}\label{class_8cpp}\index{C:/Users/gfiej/OneDrive/Desktop/projects/zaawansowane4/zaawansowane4/zaawansowane4/class.cpp@{C:/Users/gfiej/OneDrive/Desktop/projects/zaawansowane4/zaawansowane4/zaawansowane4/class.cpp}}
+
+
+Implementacja klasy matrix.  
+
+
+{\ttfamily \#include "{}class.\+h"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$ostream$>$}\newline
+{\ttfamily \#include $<$ctime$>$}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmatrix}{matrix}} \mbox{\hyperlink{class_8cpp_a711f1d52f70d592dcf2670c3fc7598a9}{operator+}} (int a, \mbox{\hyperlink{classmatrix}{matrix}} \&m)
+\begin{DoxyCompactList}\small\item\em Operator dodawania liczby do macierzy (globalny). \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classmatrix}{matrix}} \mbox{\hyperlink{class_8cpp_a4cdb71e0bc2dd8f4f07302f5bb1056a6}{operator\texorpdfstring{$\ast$}{*}}} (int a, \mbox{\hyperlink{classmatrix}{matrix}} \&m)
+\begin{DoxyCompactList}\small\item\em Operator mnożenia liczby przez macierz (globalny). \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classmatrix}{matrix}} \mbox{\hyperlink{class_8cpp_ac7bc63f68e73ed544fc255561975cfac}{operator-\/}} (int a, \mbox{\hyperlink{classmatrix}{matrix}} \&m)
+\begin{DoxyCompactList}\small\item\em Operator odejmowania liczby od macierzy (globalny). \end{DoxyCompactList}\item 
+ostream \& \mbox{\hyperlink{class_8cpp_ac80ae103ba7f6616e3b4bb531abc92a2}{operator$<$$<$}} (ostream \&o, \mbox{\hyperlink{classmatrix}{matrix}} \&m)
+\begin{DoxyCompactList}\small\item\em Operator wyjścia strumienia dla obiektu matrix. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementacja klasy matrix. 
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{class_8cpp_a4cdb71e0bc2dd8f4f07302f5bb1056a6}\index{class.cpp@{class.cpp}!operator\texorpdfstring{$\ast$}{*}@{operator\texorpdfstring{$\ast$}{*}}}
+\index{operator\texorpdfstring{$\ast$}{*}@{operator\texorpdfstring{$\ast$}{*}}!class.cpp@{class.cpp}}
+\doxysubsubsection{\texorpdfstring{operator\texorpdfstring{$\ast$}{*}()}{operator*()}}
+{\footnotesize\ttfamily \label{class_8cpp_a4cdb71e0bc2dd8f4f07302f5bb1056a6} 
+\mbox{\hyperlink{classmatrix}{matrix}} operator\texorpdfstring{$\ast$}{*} (\begin{DoxyParamCaption}\item[{int}]{a}{, }\item[{\mbox{\hyperlink{classmatrix}{matrix}} \&}]{m}{}\end{DoxyParamCaption})}
+
+
+
+Operator mnożenia liczby przez macierz (globalny). 
+
+Operator mno�enia liczby przez macierz (globalny).
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Liczba do pomnożenia. \\
+\hline
+{\em m} & Macierz. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nowa macierz będąca wynikiem mnożenia. 
+\end{DoxyReturn}
+\Hypertarget{class_8cpp_a711f1d52f70d592dcf2670c3fc7598a9}\index{class.cpp@{class.cpp}!operator+@{operator+}}
+\index{operator+@{operator+}!class.cpp@{class.cpp}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily \label{class_8cpp_a711f1d52f70d592dcf2670c3fc7598a9} 
+\mbox{\hyperlink{classmatrix}{matrix}} operator+ (\begin{DoxyParamCaption}\item[{int}]{a}{, }\item[{\mbox{\hyperlink{classmatrix}{matrix}} \&}]{m}{}\end{DoxyParamCaption})}
+
+
+
+Operator dodawania liczby do macierzy (globalny). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Liczba do dodania. \\
+\hline
+{\em m} & Macierz. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nowa macierz będąca wynikiem dodawania. 
+\end{DoxyReturn}
+\Hypertarget{class_8cpp_ac7bc63f68e73ed544fc255561975cfac}\index{class.cpp@{class.cpp}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!class.cpp@{class.cpp}}
+\doxysubsubsection{\texorpdfstring{operator-\/()}{operator-()}}
+{\footnotesize\ttfamily \label{class_8cpp_ac7bc63f68e73ed544fc255561975cfac} 
+\mbox{\hyperlink{classmatrix}{matrix}} operator-\/ (\begin{DoxyParamCaption}\item[{int}]{a}{, }\item[{\mbox{\hyperlink{classmatrix}{matrix}} \&}]{m}{}\end{DoxyParamCaption})}
+
+
+
+Operator odejmowania liczby od macierzy (globalny). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Liczba do odjęcia. \\
+\hline
+{\em m} & Macierz. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nowa macierz będąca wynikiem odejmowania. 
+\end{DoxyReturn}
+\Hypertarget{class_8cpp_ac80ae103ba7f6616e3b4bb531abc92a2}\index{class.cpp@{class.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!class.cpp@{class.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
+{\footnotesize\ttfamily \label{class_8cpp_ac80ae103ba7f6616e3b4bb531abc92a2} 
+ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{o}{, }\item[{\mbox{\hyperlink{classmatrix}{matrix}} \&}]{m}{}\end{DoxyParamCaption})}
+
+
+
+Operator wyjścia strumienia dla obiektu matrix. 
+
+Operator wyj�cia strumienia dla obiektu matrix.
+
+
+\begin{DoxyParams}{Parameters}
+{\em o} & Strumień wyjściowy. \\
+\hline
+{\em m} & Obiekt matrix do wyświetlenia. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Strumień wyjściowy. 
+\end{DoxyReturn}
